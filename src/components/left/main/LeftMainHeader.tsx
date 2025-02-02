@@ -275,6 +275,7 @@ const LeftMainHeader: FC<OwnProps & StateProps> = ({
             onBotMenuClosed={unmarkBotMenuOpen}
           />
         </DropdownMenu>
+        <div className="vertical-line" />
         <SearchInput
           inputId="telegram-search-input"
           resultsItemSelector=".LeftSearch .ListItem-button"

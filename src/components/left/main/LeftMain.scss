@@ -14,7 +14,7 @@
   .ChatFolders {
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
 
     .tabs-placeholder {

@@ -3,6 +3,11 @@
 #LeftMainHeader {
   position: relative;
 
+  .vertical-line {
+    border-left: 1px solid black; 
+    height: 100px;
+  }
+
   .DropdownMenuFiller {
     width: 2.5rem;
     height: 2.5rem;
